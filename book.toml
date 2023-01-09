@@ -4,3 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "study_note"
+
+[output.html]
+mathjax-support = true
+
+# github pagesのため、docs にビルド結果を出力
+# mdbook build --dest-dir docs
+# 数式は以下のように記載する
+# ブロック数式：\\[ ～ \\]
+# インライン数式：\\( ～ \\)
